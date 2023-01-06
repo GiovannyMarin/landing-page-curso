@@ -1,0 +1,8 @@
+:root {
+	/* criar variaveis locais */
+	--primary-color: #0a1128;
+	--white: #fff;
+	--grey: #eeee;
+	--secondary-color: crimson;
+	--gap: 3rem; /* espacamento padrao de 30px*/
+}

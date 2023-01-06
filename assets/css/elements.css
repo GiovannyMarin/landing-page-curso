@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+html {
+	font-size: 62.5%; /*tecnica para utilizar o rem como pixel*/
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 2rem;
+	color: var(--primary-color);
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+	font-size: 6rem;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 5.5rem;
+
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 5rem;
+}
+
+h4 {
+	font-size: 4.5rem;
+}
+
+h5 {
+	font-size: 4;
+}
+
+h6 {
+	font-size: 3.5;
+}
+
+p {
+	margin-bottom: 3rem;
+}
+
+table {
+	width: 100%;
+}
+
+table td,
+table th {
+	text-align: left;
+	padding: 0.5rem;
+	margin: 0;
+	border: 0.1rem solid var(--grey);
+}
+
+tfoot td,
+table th {
+	background: var(--grey);
+}
+
+table caption {
+	font-style: italic;
+	font-size: 1.6rem;
+	text-align: left;
+	margin-bottom: 1rem;
+}
+
+.contact-text-content h2 {
+	margin-bottom: 3rem;
+}
